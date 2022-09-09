@@ -1,7 +1,7 @@
-package export
+package libexports
 
 import (
-	l2lib "github.com/test-network-function/l2discovery/l2lib/pkg/export"
+	l2lib "github.com/test-network-function/l2discovery-exports"
 )
 
 type SolverConfig interface {

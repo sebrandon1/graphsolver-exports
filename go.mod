@@ -1,7 +1,5 @@
-module github.com/test-network-function/simplegraphsolver/pkg/export
+module github.com/test-network-function/graphsolver-exports
 
 go 1.18
 
-replace github.com/test-network-function/l2discovery/l2lib/pkg/export => ../../../l2discoverydavid/l2lib/pkg/export
-
-require github.com/test-network-function/l2discovery/l2lib/pkg/export v0.0.0-00010101000000-000000000000
+require github.com/test-network-function/l2discovery-exports v0.0.0-20220909220625-69bfab4b0fc1
